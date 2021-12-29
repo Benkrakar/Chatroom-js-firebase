@@ -3,7 +3,6 @@ class ChatUI{
     this.list = list
   }
   render(data){
-    // const when =dateFns.distanceInWordsTo
     const html = `
     <li class="list-group-item">
       <span class="username">${data.username}</span>
